@@ -1,0 +1,122 @@
+html {
+    background-image: url(fon2.png);
+    background-size: cover;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main a{
+    text-decoration: none; 
+}
+
+.logo{
+    font-size: 45px;
+    color: #000000;
+    font-weight: 700;
+    display: flex;
+    justify-self: start;
+}
+
+.photo{
+    display: flex;
+    width: 96%;
+    height: 250px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.photo img{
+    border: 4px solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 4px #444;
+}
+
+.photo img:hover{
+    box-shadow: 0 0 12px #444;
+    transition: 0.3s;
+}
+
+.outer-conteiner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.text{
+    margin-top: 50px;
+    display: flex;
+    width: 99%;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.text section1{
+    padding-right: 20px;
+    width: 45%;
+    color:  rgb(255, 255, 255);
+    text-shadow: 1px 0 20px rgb(6, 0, 0);   
+}
+
+.text section2{
+    padding-left: 20px;
+    width: 45%;
+    color:  rgb(255, 255, 255);
+    text-shadow: 1px 0 10px #000000;
+}
+
+.text section3{
+    padding-left: 10px;
+    width: 40%;
+    color:  rgb(255, 255, 255);
+    text-shadow: 1px 0 10px #faf762;
+}
+
+.text section4{
+    margin-top: 80px;
+    padding-left: 10px;
+    width: 40%;
+    color:  rgb(255, 255, 255);
+    text-shadow: 1px 0 10px #ffffff;
+}
+
+.Ruless{
+   width: 100%;
+   height: 400px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.Ruless img{
+    border: 5px solid;
+}
+
+.Ruless img:hover{
+    box-shadow: 0 0 20px #fdfdfd;
+    transition: 0.3s;
+}
